@@ -1,0 +1,387 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+#carefor {
+  padding: 50px 0;
+}
+#carefor .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+#carefor .textbox h3 {
+  color: #999999;
+  font-size: 24px;
+}
+#carefor .imgbox {
+  width: 500px;
+}
+#carefor .textbox h1 {
+  font-size: 50px;
+}
+#carefor .textbox h3 {
+  margin-bottom: 25px;
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 80px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#welcome .textbox h3 {
+  color: #837777;
+  font-size: 20px;
+  margin: 20px 0 40px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #a2c0be;
+  color: white;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+}
+#welcome .wid {
+  width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  #welcome .textbox .btn {
+    margin-bottom: 20px;
+  }
+  #welcome .imgbox {
+    margin-bottom: 30px;
+  }
+}
+
+#about {
+  padding: 40px 0;
+}
+#about .textbox {
+  padding: 0 100px;
+}
+#about .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#about .textbox h3, #about .textbox p {
+  color: #b5b3b3;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 0 0;
+  line-height: 1.6;
+}
+#about .textbox p {
+  font-size: 18px;
+  color: #807e7e;
+  line-height: 1.4;
+}
+#about .textbox li {
+  padding: 20px 0 0 0;
+  display: flex;
+}
+#about .textbox .icon {
+  padding: 0 15px 0 0;
+  color: #a2c0be;
+}
+#about .textbox h5 {
+  color: #6c757d;
+  font-size: 20px;
+}
+#about .imgbox {
+  width: 450px;
+}
+@media screen and (max-width: 992px) {
+  #about .textbox {
+    padding: 0;
+  }
+  #about .imgbox {
+    width: 700px;
+    margin-top: 30px;
+  }
+}
+
+#trainer {
+  padding: 40px 0;
+}
+#trainer h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+#trainer h3, #trainer h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #a8a8a8;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#trainer .box {
+  margin: 0 5px;
+}
+#trainer .box .textbox {
+  padding: 15px;
+}
+#trainer .box h2 {
+  font-size: 25px;
+  padding: 20px 0 0;
+  font-weight: 300;
+}
+#trainer .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#trainer .box ul li {
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #d4cece;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#trainer .box ul li .icon {
+  margin: -7px;
+}
+#trainer .wid {
+  width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #trainer .box .imgbox {
+    margin-top: 20px;
+  }
+}
+
+#pricing {
+  padding: 40px 0;
+}
+#pricing .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricing .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricing .textbox h5 {
+  font-weight: 200;
+  font-size: 20px;
+  color: #000000;
+  margin: 20px 0 50px;
+}
+#pricing .box {
+  color: white;
+  padding: 50px 30px;
+  background-color: #567876;
+  text-align: center;
+  width: 400px;
+}
+#pricing .box h2 {
+  font-size: 25px;
+}
+#pricing .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricing .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricing .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricing .box .btn {
+  border-radius: 30px;
+  background-color: #6c757d;
+  color: white;
+  margin: 30px 0 0;
+  padding: 10px 35px;
+}
+#pricing .premium-color {
+  background-color: #343a40;
+}
+#pricing .premium-color .btn {
+  background-color: #708f97;
+}
+@media screen and (max-width: 992px) {
+  #pricing .box {
+    margin-top: 20px;
+  }
+}
+
+#questions {
+  padding: 40px 0;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 15px 0;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1, 4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  color: #717171;
+}
+#questions .textbox .minibox {
+  margin: 20px 0 0 0;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 0 32px;
+  color: #949494;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .icon {
+  color: #d4cece;
+}
+#questions .icon i {
+  font-size: 22px;
+}
+#questions .bigicon i {
+  font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+  #questions .textbox {
+    padding: 0;
+  }
+  #questions .imgbox {
+    margin-top: 30px;
+  }
+}
+
+#dogger {
+  padding: 40px 0;
+}
+#dogger .box {
+  display: flex;
+}
+#dogger h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#dogger h3 {
+  margin: 30px 0 60px;
+  font-size: 20px;
+}
+#dogger .textbox {
+  margin: 0 0 0 20px;
+}
+#dogger .textbox h2 {
+  font-size: 22px;
+}
+#dogger .textbox h4 {
+  font-size: 18px;
+  color: #aba8a8;
+}
+#dogger .textbox p {
+  font-size: 18px;
+  color: #8f8686;
+}
+#dogger .textbox p, #dogger .textbox h4 {
+  margin: 20px 0 0;
+}
+#dogger .wid {
+  width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #dogger .box {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #dogger .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #dogger .box .textbox {
+    margin-top: 20px;
+  }
+}
+
+#services {
+  padding: 40px 0;
+}
+#services .wid {
+  width: 580px;
+}
+#services h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#services h3 {
+  margin: 30px 0;
+  color: #c6c6c6;
+  font-size: 20px;
+}
+#services .textbox {
+  padding: 30px 40px;
+}
+#services .textbox h2 {
+  font-size: 25px;
+  color: #757575;
+  margin: 20px 0 0;
+}
+#services .textbox h3 {
+  margin: 25px 0 0;
+}
+#services .textbox .icon {
+  font-size: 60px;
+}
+@media screen and (max-width: 768px) {
+  #services .textbox {
+    padding: 0;
+  }
+  #services .textbox .icon {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #services .textbox {
+    text-align: center;
+  }
+  #services .textbox h3 {
+    padding: 0 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
